@@ -559,14 +559,14 @@ const ChapterView = ({ chapter, onComplete, onBack }) => {
 
         {/* Action Buttons */}
         <div className="flex space-x-4">
-          {chapter.quiz && progress.sectionsRead.length === chapter.sections.length && !progress.completed && (
+          {chapter.quiz && progress.sectionsRead.length === (fullChapterContent[chapter.id]?.sections || chapter.sections).length && !progress.completed && (
             <button onClick={() => setShowQuiz(true)} className="btn-primary flex-1">
               <i className="fas fa-brain mr-2"></i>
               {progress.quizScore > 0 ? `Retake Quiz (${progress.quizScore}%)` : 'Take Quiz'}
             </button>
           )}
           
-          {!progress.completed && progress.sectionsRead.length === chapter.sections.length && (
+          {!progress.completed && progress.sectionsRead.length === (fullChapterContent[chapter.id]?.sections || chapter.sections).length && (
             <button onClick={handleCompleteChapter} className="btn-primary flex-1">
               <i className="fas fa-flag-checkered mr-2"></i>
               Mark Chapter Complete
