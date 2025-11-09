@@ -822,7 +822,7 @@ You want the fastest path to a provable, tangible win. That win gives you the po
 
 Focus your search on these four revenue-adjacent areas:
 
-### 1. Sales Use Cases
+**1. Sales Use Cases**
 - Lead research
 - Email drafting
 - CRM updates
@@ -830,7 +830,7 @@ Focus your search on these four revenue-adjacent areas:
 - Follow-up sequences
 - Meeting prep
 
-### 2. Support Use Cases
+**2. Support Use Cases**
 - Ticket summarization
 - Response templates
 - Knowledge search
@@ -838,16 +838,16 @@ Focus your search on these four revenue-adjacent areas:
 - Customer history
 - Auto-drafting replies (with human-in-the-loop approval)
 
-A real example given is for an e-commerce client: **"Low-level informational tickets = autonomous response. Edge cases ('I ordered in Slovenia, now in Australia') = human intervention"**.
+A real example given is for an e-commerce client: *"Low-level informational tickets = autonomous response. Edge cases ('I ordered in Slovenia, now in Australia') = human intervention"*.
 
-### 3. Marketing Use Cases
+**3. Marketing Use Cases**
 - Content creation
 - SEO research
 - Social posting
 - Ad copy
 - Campaign analysis
 
-### 4. Operations Use Cases
+**4. Operations Use Cases**
 - Process documentation
 - Data cleanup
 - Report automation
