@@ -79,8 +79,8 @@ export const fullChapterContent = {
 }
 ```
 
-**Content Guidelines** (see `CONTENT_UPDATE_GUIDE.md`):
-- Extract content from DOCX files in `/content/` directory
+**Content Guidelines** (see `CONTENT_UPDATE_GUIDE.md` for detailed formatting):
+- Extract content from DOCX/PDF files in `/content/` directory
 - Maintain formatting integrity (headers, lists, callouts, emphasis)
 - Match section titles with `chapters.js` metadata
 - Use markdown-style syntax for consistent rendering
@@ -88,23 +88,29 @@ export const fullChapterContent = {
 ## File Structure
 
 ```
-├── content/                    # Source DOCX files (14 chapters)
+├── content/                    # Source DOCX/PDF files (14 chapters)
 ├── src/
 │   ├── data/
 │   │   ├── chapters.js        # Chapter metadata and structure
 │   │   ├── fullChapters.js    # Complete chapter content
 │   │   └── chapters.ts        # TypeScript type definitions
 │   ├── components/            # React components
+│   │   ├── ChapterContent.jsx # Markdown-style content renderer
+│   │   ├── ChapterView.jsx    # Individual chapter display
+│   │   ├── Dashboard.jsx      # Chapter overview and progress
+│   │   └── ProgressTracker.jsx # Sidebar navigation and progress
 │   ├── utils/
 │   │   ├── storage.ts         # LocalStorage progress tracking
 │   │   └── aiCoach.ts         # AI Coach functionality
-│   └── App.jsx               # Main application
+│   └── App.jsx               # Main application shell
 ├── public/static/            # Static assets
 ├── package.json              # Dependencies and scripts
 ├── vite.config.js           # Vite configuration
 ├── tailwind.config.js       # Tailwind customization
 ├── wrangler.jsonc           # Cloudflare Pages configuration
-└── ecosystem.config.cjs     # PM2 process configuration
+├── ecosystem.config.cjs     # PM2 process configuration
+├── CONTENT_UPDATE_GUIDE.md  # Detailed content formatting guide
+└── GITHUB_WORKFLOW.md       # GitHub workflow documentation
 ```
 
 ## Development Guidelines
@@ -164,11 +170,11 @@ export const fullChapterContent = {
 ## Common Development Tasks
 
 ### Adding New Chapter Content
-1. Extract content from corresponding DOCX file in `/content/`
+1. Extract content from corresponding DOCX/PDF file in `/content/`
 2. Format according to guidelines in `CONTENT_UPDATE_GUIDE.md`
 3. Add to `src/data/fullChapters.js` using chapter ID from `chapters.js`
-4. Test rendering in ChapterView component
-5. Verify progress tracking and AI Coach context
+4. Test rendering: `npm run dev` and navigate to the chapter
+5. Verify formatting, progress tracking, and AI Coach context
 
 ### Debugging Content Issues
 - Check console for React rendering errors

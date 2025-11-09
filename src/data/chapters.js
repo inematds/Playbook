@@ -130,6 +130,7 @@ export const chaptersData = [
     icon: "fa-flag",
     color: "from-red-600 to-red-400",
     duration: "40 min",
+    videoUrl: "https://www.loom.com/share/4f7231640af94846aff7fa2aecb59eea",
     keyTakeaways: [
       "Identifying the 'Trojan Horse' client",
       "Red flags that predict project failure",
