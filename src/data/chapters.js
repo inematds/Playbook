@@ -181,6 +181,7 @@ export const chaptersData = [
     icon: "fa-dollar-sign",
     color: "from-green-600 to-green-400",
     duration: "55 min",
+    videoUrl: "https://www.loom.com/share/663789411f214ff685fb51a0c3a17e03",
     keyTakeaways: [
       "Becoming the 'calm in the storm' for overwhelmed clients",
       "Value-based pricing vs hourly billing",
@@ -190,16 +191,28 @@ export const chaptersData = [
     overview: "Design solutions that address real business problems and price them for value, not time.",
     sections: [
       {
-        title: "Solution Architecture",
-        content: "Framework for designing solutions that actually solve problems rather than add complexity."
+        title: "From Chaos to Calm: The Confidence Principle",
+        content: "Position yourself as the calm in the storm through systematic processes that reduce client anxiety."
       },
       {
-        title: "Pricing Psychology",
-        content: "Move from hourly billing to value-based pricing that scales with client success."
+        title: "The Murder Mystery Framework: Diagnosing the Current State",
+        content: "Investigate inefficiencies using four forensic worksheets to map tools, knowledge sources, processes, and stakeholders."
       },
       {
-        title: "Productization",
-        content: "Package your expertise into repeatable, scalable offerings."
+        title: "Making It Tangible: The Baseline Assessment That Proves Your Value",
+        content: "Establish measurable before/after metrics using KPI frameworks to demonstrate concrete value."
+      },
+      {
+        title: "The 3-Act Rollout: From Pilot to Optimization",
+        content: "Execute systematic implementation through Pilot, Scale, and Optimize phases for long-term success."
+      },
+      {
+        title: "The Centralized Strategy: Finding the First Domino",
+        content: "Prioritize revenue-adjacent projects for maximum impact and political capital building."
+      },
+      {
+        title: "The Ecosystem: A Pricing Strategy That Scales",
+        content: "Build a tiered engagement ladder from community access to enterprise partnerships that captures every client type."
       }
     ],
     exercises: [
