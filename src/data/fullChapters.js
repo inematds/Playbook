@@ -816,7 +816,6 @@ And you must follow the **Golden Rule of Integration: be a partner, not a purist
 
 Here is the single most important filter for choosing your first project:
 
-### 💰 Revenue Priority Principle
 **"Revenue-adjacent = highest value. Even 1% incremental positive change = tangible benefit = wind under your sails."**
 
 You want the fastest path to a provable, tangible win. That win gives you the political capital and momentum to tackle bigger, messier problems.
