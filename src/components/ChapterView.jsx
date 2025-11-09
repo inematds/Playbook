@@ -319,7 +319,7 @@ const ChapterView = ({ chapter, onComplete, onBack }) => {
           <h3 className="text-xl font-bold text-navy-800 mb-6">Chapter Content</h3>
           
           {/* Section Navigation */}
-          <div className="flex space-x-2 mb-6 overflow-x-auto pb-2">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-6">
             {(fullChapterContent[chapter.id]?.sections || chapter.sections).map((section, index) => (
               <button
                 key={index}
@@ -327,7 +327,7 @@ const ChapterView = ({ chapter, onComplete, onBack }) => {
                   setCurrentSection(index);
                   markSectionRead(index);
                 }}
-                className={`px-4 py-2 rounded-lg whitespace-nowrap transition-colors ${
+                className={`px-3 py-4 rounded-lg text-left transition-colors min-h-[80px] flex flex-col justify-center relative ${
                   currentSection === index
                     ? 'bg-navy-700 text-white'
                     : progress.sectionsRead.includes(section.title)
@@ -335,9 +335,11 @@ const ChapterView = ({ chapter, onComplete, onBack }) => {
                     : 'bg-silver-100 text-silver-700 hover:bg-silver-200'
                 }`}
               >
-                {section.title}
+                <div className="text-sm font-semibold leading-tight">
+                  {section.title}
+                </div>
                 {progress.sectionsRead.includes(section.title) && (
-                  <i className="fas fa-check ml-2"></i>
+                  <i className="fas fa-check absolute top-2 right-2 text-sm"></i>
                 )}
               </button>
             ))}
