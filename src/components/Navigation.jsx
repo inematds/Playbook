@@ -1,6 +1,52 @@
 import React from 'react';
+import { chaptersData, getChapterProgress, getOverallProgress, getTotalPoints } from '../data/chapters';
 
 const Navigation = ({ currentView, onNavigate, onBack, focusMode, onToggleFocus }) => {
+  const handleExportProgress = () => {
+    try {
+      // Collect all progress data
+      const exportData = {
+        exportDate: new Date().toISOString(),
+        overallProgress: getOverallProgress(),
+        totalPoints: getTotalPoints(),
+        chapters: chaptersData.map(chapter => {
+          const progress = getChapterProgress(chapter.id);
+          return {
+            id: chapter.id,
+            title: chapter.title,
+            number: chapter.number,
+            completed: progress.completed,
+            sectionsRead: progress.sectionsRead,
+            exercisesCompleted: progress.exercisesCompleted || [],
+            quizScore: progress.quizScore || 0,
+            videoWatched: progress.videoWatched || false,
+            notes: localStorage.getItem(`chapter_${chapter.id}_notes`) || ''
+          };
+        })
+      };
+
+      // Create and download JSON file
+      const jsonString = JSON.stringify(exportData, null, 2);
+      const blob = new Blob([jsonString], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `ai-consulting-playbook-progress-${new Date().toISOString().split('T')[0]}.json`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      URL.revokeObjectURL(url);
+      
+      // Show success feedback (optional)
+      console.log('Progress exported successfully');
+    } catch (error) {
+      console.error('Failed to export progress:', error);
+      alert('Failed to export progress. Please try again.');
+    }
+  };
+
   return (
     <header className="bg-navy-800 text-white sticky top-0 z-50">
       <div className="container mx-auto px-4">
@@ -32,7 +78,11 @@ const Navigation = ({ currentView, onNavigate, onBack, focusMode, onToggleFocus 
               <span className="text-sm">{focusMode ? 'Exit' : ''} Focus Mode</span>
             </button>
 
-            <button className="px-3 py-1 rounded-lg bg-navy-700 hover:bg-navy-600 transition-colors">
+            <button 
+              onClick={handleExportProgress}
+              className="px-3 py-1 rounded-lg bg-navy-700 hover:bg-navy-600 transition-colors"
+              title="Export your learning progress as JSON file"
+            >
               <i className="fas fa-download mr-2"></i>
               Export Progress
             </button>

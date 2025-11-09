@@ -43,7 +43,7 @@ const ChapterView = ({ chapter, onComplete, onBack }) => {
 
   useEffect(() => {
     const savedNotes = localStorage.getItem(`chapter_${chapter.id}_notes`);
-    if (savedNotes) setNotes(savedNotes);
+    setNotes(savedNotes || ''); // Always set notes, use empty string if no saved notes
   }, [chapter.id]);
 
   const markSectionRead = (sectionIndex) => {
