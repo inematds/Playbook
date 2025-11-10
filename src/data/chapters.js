@@ -232,25 +232,38 @@ export const chaptersData = [
     icon: "fa-microscope",
     color: "from-purple-600 to-purple-400",
     duration: "45 min",
+    videoUrl: "https://www.loom.com/share/88f1c1679f38445c8305c25c8c335462",
     keyTakeaways: [
-      "Recording and analyzing your calls for improvement",
-      "Identifying filler words and weak language",
-      "The 80/20 talk ratio rule",
-      "Building self-awareness through systematic review"
+      "Why human feedback triggers defensive reactions",
+      "The 'Arya' AI Protocol for unbiased call analysis", 
+      "The Six Dimensions of Executive Presence scorecard",
+      "Systematic improvement: from 47 fillers to 'articulate'"
     ],
-    overview: "Develop a systematic approach to improving your client communication through rigorous self-analysis.",
+    overview: "Master the systematic use of AI to dissect your calls and eliminate weaknesses through unbiased, ego-bypassing feedback.",
     sections: [
       {
-        title: "The Recording Setup",
-        content: "Technical and legal considerations for recording client calls."
+        title: "Why You Can't Trust a Human (Not Even Yourself)",
+        content: "The psychology of biased self-evaluation and why human feedback triggers defensive reactions that prevent improvement."
       },
       {
-        title: "Analysis Framework",
-        content: "Systematic approach to reviewing calls and identifying improvement areas."
+        title: "The 'Arya' Protocol: An Unblinking Mirror",
+        content: "Step-by-step process for using AI to analyze your calls, including exact prompts and technical setup."
       },
       {
-        title: "Common Mistakes",
-        content: "The most common communication errors and how to fix them."
+        title: "The Six Dimensions of Executive Presence",
+        content: "Complete scorecard framework analyzing clarity, vocal delivery, authority, body language, questioning skills, and client engagement."
+      },
+      {
+        title: "Anatomy of an Autopsy (A Case Study)",
+        content: "Real-world example of AI call analysis showing the 'Fire Hose' problem, filler words, and skewed talk ratios."
+      },
+      {
+        title: "The AI-Human Synergy Loop",
+        content: "How to combine AI observations with human context and strategy, plus reading client body language through AI analysis."
+      },
+      {
+        title: "The Compounding Effect: From 47 Fillers to 'Articulate'",
+        content: "Building a systematic improvement loop that transforms weaknesses into perceived strengths through small, compound fixes."
       }
     ],
     exercises: [
@@ -270,25 +283,42 @@ export const chaptersData = [
     icon: "fa-x-ray",
     color: "from-blue-600 to-blue-400",
     duration: "60 min",
+    videoUrl: "https://www.loom.com/share/b5d8cce59e834fd39f742a8d9362909e",
     keyTakeaways: [
-      "Creating a repeatable audit framework",
-      "Positioning audits as value discovery",
-      "The $20,000 price point psychology",
-      "Automation tools for efficiency"
+      "Why the $20,000 'X-Ray' flips the entire sales dynamic",
+      "Expert's Trap vs. Architect's Asset business models",
+      "Building the 4-component audit automation system",
+      "The 'Black Box' approach to intellectual property protection"
     ],
-    overview: "Build a systematic audit process that uncovers value, builds trust, and commands premium pricing.",
+    overview: "Build the $20,000 Audit Automation - a scalable system that converts skeptical prospects into high-paying clients by proving problems with their own data.",
     sections: [
       {
-        title: "Audit Architecture",
-        content: "Design a comprehensive audit that analyzes processes, data, systems, and readiness."
+        title: "The $20,000 Question",
+        content: "The pivotal moment that transforms consultants from vendors into architects, and how to position the audit as a strategic diagnostic tool."
       },
       {
-        title: "Value Discovery",
-        content: "Techniques for uncovering hidden opportunities and quantifying potential ROI."
+        title: "The 'Expert's Trap' vs. The 'Architect's Asset'",
+        content: "Understanding the fundamental difference between trading time for money and building scalable systems that manufacture authority."
       },
       {
-        title: "Delivery Excellence",
-        content: "Present findings in a way that compels action and justifies premium pricing."
+        title: "The Anatomy of Your $20K 'X-Ray'",
+        content: "The four crucial components: Specific Problem (Niche), Inputs (Data Feed), Engine (Secret Sauce), and Output (Aha! Moment)."
+      },
+      {
+        title: "The First Manual Pass: Distilling Your Genius",
+        content: "The step-by-step process of externalizing expertise into a 'Recipe Book' of rules through the Beta Client methodology."
+      },
+      {
+        title: "From Logic to 'The Engine': The 'Black Box' Stack",
+        content: "Building the three-layer automation system: Front Door (Data Ingestion), Brain (Analysis Engine), and Printer (Presentation Layer)."
+      },
+      {
+        title: "Delivering the 'Aha! Moment': The $20k Paid Pitch",
+        content: "The masterclass meeting where consultants are paid $20,000 to pitch their $200,000 core engagement using the one-page bombshell report."
+      },
+      {
+        title: "Your First True Asset",
+        content: "Transitioning from expert to architect and unlocking the high-value consulting model through the 'X-Ray' machine."
       }
     ],
     exercises: [

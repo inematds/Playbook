@@ -24,7 +24,9 @@ This changelog documents all development changes made to the AI Consulting Playb
 - **Chapter 2**: Full content (4 sections) + video + quiz ✅
 - **Chapter 3**: Full content (6 sections) + video ✅
 - **Chapter 4**: Full content (6 sections) + video ✅
-- **Chapters 5-14**: Metadata only (need content + video integration)
+- **Chapter 5**: Full content (6 sections) + video ✅
+- **Chapter 6**: Full content (7 sections) + video ✅
+- **Chapters 7-14**: Metadata only (need content + video integration)
 
 ---
 
@@ -219,6 +221,64 @@ This changelog documents all development changes made to the AI Consulting Playb
 - **Maintained Visual Hierarchy:** Locked chapters still appear disabled but remain readable
 - **Accessibility Compliance:** Proper contrast ratios throughout sidebar
 - **Consistent Theme Experience:** All sidebar elements now properly support both light/dark modes
+
+### **12. Chapter 5: The Call Autopsy Protocol - Complete Integration** (Commits: [Current])
+**What:** Full content integration for Chapter 5 with AI-powered call analysis methodology
+**Files Changed:**
+- `src/data/chapters.js` (added video URL, updated metadata to match 6 sections)
+- `src/data/fullChapters.js` (added complete chapter content with proper formatting)
+
+**Content Features:**
+- **6 Comprehensive Sections:** Complete extraction from PDF with all methodologies and frameworks
+- **The 'Arya' Protocol:** Step-by-step AI analysis setup with exact prompts for video call reviews
+- **Executive Presence Scorecard:** Professional table with 6 dimensions of communication analysis
+- **Real Case Study:** Detailed autopsy example showing practical application of the methodology
+- **Systematic Improvement Loop:** 6-step process for compound skill development over time
+- **Professional Formatting:** Tables, numbered lists with proper spacing, code examples, callouts
+
+**Key Frameworks Added:**
+- **AI-Human Synergy Model:** How to combine AI observations with human strategic context
+- **Six Dimensions Framework:** Clarity, Vocal Delivery, Authority, Body Language, Questioning & Listening, Client Engagement
+- **The Compounding Effect:** Week-by-week transformation from 47 filler words to "articulate" client feedback
+- **Speaking Headlines Principle:** Before/after transformation table for actionable call improvements
+
+**Technical Implementation:**
+- **Video Integration:** Added Loom URL (`https://www.loom.com/share/88f1c1679f38445c8305c25c8c335462`)
+- **Content Structure:** Aligned chapter metadata with actual 6-section content from PDF
+- **Formatting Improvements:** Enhanced numbered lists and table readability
+- **Progress Tracking:** All existing progress systems work seamlessly with new content
+
+### **13. Chapter 6: The $20,000 'X-Ray' - Audit Automation System** (Commits: [Current])  
+**What:** Complete implementation of the premium audit automation methodology
+**Files Changed:**
+- `src/data/chapters.js` (added video URL, updated metadata to match 7 sections)
+- `src/data/fullChapters.js` (added complete chapter content with business model frameworks)
+
+**Content Features:**
+- **7 Strategic Sections:** Complete blueprint for building the $20K audit automation system
+- **Expert vs. Architect Model:** Professional comparison table showing business model transformation
+- **4-Component X-Ray System:** Specific Problem (Niche), Inputs (Data Feed), Engine (Secret Sauce), Output (Aha! Moment)
+- **Black Box Architecture:** 3-layer automation system design (Front Door, Brain, Printer)
+- **Manual Pass Methodology:** Step-by-step IP creation process through Beta Client approach
+- **Paid Pitch Framework:** Masterclass meeting structure for converting audits to $200K engagements
+
+**Key Business Models:**
+- **The $20,000 Question:** Sales dynamic transformation from vendor to architect positioning
+- **Authority Manufacturing:** How automation transfers credibility from person to system
+- **Recipe Book Creation:** Process for externalizing expertise into scalable rules and logic
+- **Aha! Moment Delivery:** One-page bombshell report structure and presentation methodology
+
+**Strategic Frameworks:**
+- **Expert's Trap vs. Architect's Asset:** Complete business model comparison with metrics
+- **IP Protection Strategy:** Black box approach to prevent client commoditization
+- **Scalability Transformation:** From 1:1 linear model to 1:Many exponential growth
+- **Value-Based Pricing:** Transitioning from time & materials to flat-fee diagnostics
+
+**Technical Implementation:**
+- **Video Integration:** Added Loom URL (`https://www.loom.com/share/b5d8cce59e834fd39f742a8d9362909e`)
+- **Content Alignment:** Updated chapter metadata to match actual 7-section structure
+- **Professional Tables:** Expert vs. Architect comparison with full business model metrics
+- **Structured Content:** Clear headers, bullet points, and step-by-step methodologies
 
 **Critical Issues Fixed:**
 - **Chapter Content Background:** Fixed white background container in chapter content area
