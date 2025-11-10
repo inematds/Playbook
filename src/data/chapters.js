@@ -408,6 +408,7 @@ export const chaptersData = [
     icon: "fa-graduation-cap",
     color: "from-yellow-600 to-yellow-400",
     duration: "45 min",
+    videoUrl: "https://www.loom.com/share/db419f57adc14de99a2d654b01c23908",
     keyTakeaways: [
       "Learning from mistakes and low-value engagements",
       "The Fiverr trap and platform graduation",
