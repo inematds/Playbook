@@ -338,6 +338,7 @@ export const chaptersData = [
     icon: "fa-comments",
     color: "from-indigo-600 to-indigo-400",
     duration: "45 min",
+    videoUrl: "https://www.loom.com/share/04b13a497f404ab0a7fef1797ab9a26e",
     keyTakeaways: [
       "Communication beats technical ability every time",
       "The proper verbiage for different audiences",
@@ -368,6 +369,7 @@ export const chaptersData = [
     icon: "fa-list",
     color: "from-orange-600 to-orange-400",
     duration: "50 min",
+    videoUrl: "https://www.loom.com/share/d7137e15b89f4e00ac76c82960d6b972",
     keyTakeaways: [
       "The modular service packaging approach",
       "How Fortune 500 companies buy services",

@@ -26,7 +26,9 @@ This changelog documents all development changes made to the AI Consulting Playb
 - **Chapter 4**: Full content (6 sections) + video ✅
 - **Chapter 5**: Full content (6 sections) + video ✅
 - **Chapter 6**: Full content (7 sections) + video ✅
-- **Chapters 7-14**: Metadata only (need content + video integration)
+- **Chapter 7**: Full content (3 sections) + video ✅
+- **Chapter 8**: Full content (3 sections) + video ✅
+- **Chapters 9-14**: Metadata only (need content + video integration)
 
 ---
 
@@ -128,6 +130,78 @@ This changelog documents all development changes made to the AI Consulting Playb
 - Ensures clean slate for each quiz attempt
 
 ---
+
+## 🆕 November 10, 2025 - Chapter 7 & 8 Integration + Content Formatting
+
+### **14. Chapter 7: The Human Multiplier - Communication Excellence** (Current Session)
+**What:** Complete content integration with focus on communication skills mastery
+**Files Changed:**
+- `src/data/chapters.js` (added video URL)
+- `src/data/fullChapters.js` (comprehensive content with detailed formatting fixes)
+
+**Content Features:**
+- **Complete Chapter Integration:** All 3 main sections with comprehensive communication frameworks
+- **Professional Development Focus:** Communication as the foundation skill that amplifies all technical abilities
+- **Practical Applications:** Real-world scenarios and improvement strategies
+- **Formatting Excellence:** Proper callout boxes, bullet points, and visual hierarchy
+
+**Technical Implementation:**
+- **Video Integration:** Added Loom URL (`https://www.loom.com/share/04b13a497f404ab0a7fef1797ab9a26e`)
+- **Content Formatting Fixes:** Multiple rounds of text formatting improvements based on user feedback
+- **Bullet Point Formatting:** Fixed line breaks and spacing for proper rendering
+- **Numbered List Formatting:** Added proper spacing between numbered items
+- **Callout Box Creation:** Professional callout box with headers and visual separation
+
+**Formatting Fixes Applied:**
+- **Bullet Point Wrapping:** Fixed "Confessions of 'Dry Operating System'" section bullets to properly wrap
+- **Numbered List Display:** Added blank lines between numbered questions in "Consultant's Scorecard" section  
+- **Callout Box Enhancement:** Converted important content to visually distinct callout box format
+- **Visual Hierarchy:** Improved section organization with proper headers and spacing
+
+### **15. Chapter 8: The Chinese Menu Technique - Enterprise Service Packaging** (Current Session)
+**What:** Complete implementation of Fortune 500 service packaging methodology with comprehensive 55-item menu
+**Files Changed:**
+- `src/data/chapters.js` (added video URL)
+- `src/data/fullChapters.js` (added complete chapter with detailed menu architecture)
+
+**Content Features:**
+- **3 Strategic Sections:** Origin Story, Menu Architecture, Enterprise Psychology
+- **Complete 55-Item AI Workshop Menu:** Comprehensive service offerings across all categories
+- **Fortune 500 Psychology:** Deep insights into enterprise procurement and decision-making
+- **Modular Service Design:** Full Chinese Menu structure with pricing and descriptions
+
+**Menu Architecture (55 Total Items):**
+- **🥗 Appetizers (7 items):** Quick wins and entry points ($1,000-$4,500)
+- **🍲 Soups (8 items):** Discovery and deep assessment ($6,000-$15,000) 
+- **🍖 Main Courses (10 items):** Core implementation services ($18,000-$38,000)
+- **👨‍🍳 Chef's Specialties (8 items):** Premium transformation services ($100,000-$200,000)
+- **🍰 Desserts (8 items):** Ongoing support and optimization ($3,500-$10,000/month)
+- **🏆 Banquet Options (3 items):** Enterprise packages ($500,000-$1,000,000)
+
+**Enterprise Psychology Frameworks:**
+- **Procurement Mindset Analysis:** How Fortune 500 companies actually make purchasing decisions
+- **Multi-Stakeholder Decision Making:** Technical teams, business leaders, procurement, executive leadership
+- **Expansion Strategy:** 5-phase progression from appetizer entry to dessert optimization
+- **'Light Version of 8' Psychology:** Restaurant psychology applied to consulting services
+- **Implementation Framework:** 5-step process for building and testing menu structures
+
+**Key Business Insights:**
+- **Risk Mitigation Strategy:** How modular services reduce client anxiety and perceived risk
+- **Budget Flexibility:** Accommodating siloed budgets and quarterly planning cycles
+- **Political Safety:** Project structure that protects decision-makers from failure blame
+- **Value Anchoring:** Strategic pricing psychology for optimal client decision-making
+
+**Technical Implementation:**
+- **Video Integration:** Added Loom URL (`https://www.loom.com/share/d7137e15b89f4e00ac76c82960d6b972`)
+- **Content Architecture:** Comprehensive menu with detailed descriptions and pricing
+- **Asset Integration:** Complete AI Workshop Menu from companion PDF fully integrated
+- **Formatting Improvements:** Clean markdown formatting with proper headers and structure
+
+**Formatting Fixes:**
+- **Markdown Syntax Cleanup:** Removed asterisks from core principles section for clean display
+- **Menu Structure:** Clean, professional layout with consistent formatting
+- **Price Display:** Clear pricing structure with proper categorization
+- **Text Readability:** Removed problematic markdown formatting that displayed raw asterisks
 
 ## 🆕 November 9, 2025 - UI/UX Improvements & Chapter Formatting
 
